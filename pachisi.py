@@ -36,7 +36,7 @@ plt.hist(player2_rolls, bins=np.arange(min(player2_rolls), max(player2_rolls)+1)
 plt.legend()
 
 # Add the number of games played to the title
-plt.title(f"""Nombre de pas avancés (somme des 2 dés du joueur)
+plt.title(f"""Nombre de pas avancés durant la partie de Pachisi
  {num_turn_per_game} tours par partie avec 2 joueurs
  {num_games} parties""")
 
